@@ -10,7 +10,7 @@ const Home = () => {
             <Chat />
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
