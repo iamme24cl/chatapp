@@ -78,7 +78,7 @@ const Input = () => {
   }
 
   const handleKey = (e) => {
-    e.code === "Enter" && handleSend();
+    data.chatId !== "null" && text.length > 0 && e.code === "Enter" &&  handleSend();
   };
 
   return (
