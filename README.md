@@ -74,19 +74,19 @@ Include screenshots or images of your application to give users a visual represe
 
 ### Register Page
 
-![Register Page](path/to/login-page-image.png)
+![Register Page](public/register.jpg)
 
 ### Login Page
 
-![Login Page](path/to/login-page-image.png)
+![Login Page](public/login.jpg)
 
 ### Chat Room
 
-![Chat Room](path/to/chat-room-image.png)
+![Chat Room](public/chatroom.jpg)
 
 ### Notifications
 
-![Notifications](path/to/notifications-image.png)
+![Notifications](public/notifications.jpg)
 
 ## License
 
