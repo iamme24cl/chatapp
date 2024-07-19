@@ -72,6 +72,10 @@ To get started with the project, follow these steps:
 
 Include screenshots or images of your application to give users a visual representation of what to expect.
 
+### Register Page
+
+![Register Page](path/to/login-page-image.png)
+
 ### Login Page
 
 ![Login Page](path/to/login-page-image.png)
@@ -100,5 +104,5 @@ Happy Coding!
 If you have any questions, feel free to reach out to the project maintainer:
 
 **Chandra Lama**  
-Email: chandralama@example.com  
+Email: iamme24cl@gmail.com  
 GitHub: [chandralama](https://github.com/chandralama)
