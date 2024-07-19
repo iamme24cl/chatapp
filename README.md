@@ -70,8 +70,6 @@ To get started with the project, follow these steps:
 
 ## Application Images
 
-Include screenshots or images of your application to give users a visual representation of what to expect.
-
 ### Register Page
 
 ![Register Page](public/register.jpg)
