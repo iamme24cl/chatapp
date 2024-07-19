@@ -3,20 +3,19 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
+// Load environment variables from .env file
 const firebaseConfig = {
-  apiKey: "AIzaSyAeI2_IZ9upcPUK4MPKR0ZbZf9dOnwJD5o",
-  authDomain: "chatapp-6f640.firebaseapp.com",
-  projectId: "chatapp-6f640",
-  storageBucket: "chatapp-6f640.appspot.com",
-  messagingSenderId: "535763878686",
-  appId: "1:535763878686:web:e67b01044c32977ee03f0f",
-  measurementId: "G-YQH9J868E3"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
-export const auth = getAuth();
-export const storage = getStorage();
-export const db = getFirestore();
-
-
+export const auth = getAuth(app);
+export const storage = getStorage(app);
+export const db = getFirestore(app);
